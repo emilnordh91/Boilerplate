@@ -1,0 +1,85 @@
+/*------------------------------------*\
+	GRIDS
+\*------------------------------------*/
+
+/*! Wrapper, sidans behållare */
+.wrapper {
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+/*! Behållare för rutnätet */
+.row {
+	clear: both;
+	max-width: 1000px;
+	margin: 0 0 0 -2.08333%;
+	list-style: none;
+}
+
+/*! En fix för att slippa ha en .end klass */
+[class^="column-"] {
+	float: left;
+	margin: 0 2.083% 0 0;
+}
+[class^="column-"].right { float: right; }
+
+.row [class^="column-"] {
+	margin: 0 0 0 2.083%;
+}
+
+/*! Rutnät systemet */
+.column-1		{ width: 6.25%; }
+.column-2		{ width: 14.583%; }
+.column-3		{ width: 22.917%; }
+.column-4		{ width: 31.25%; }
+.column-5		{ width: 39.583%; }
+.column-6		{ width: 47.917%; }
+.column-7		{ width: 56.25%; }
+.column-8		{ width: 64.583%; }
+.column-9		{ width: 72.917%; }
+.column-10		{ width: 81.25%; }
+.column-11		{ width: 89.583%; }
+.column-12		{ width: 97.917%; margin:0; }
+
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+	#!MOBILE
+\*------------------------------------*/
+@media (max-width: 720px) {
+	.wrapper {
+		width: auto;
+	}
+	
+	.rows {
+		margin: 0;
+		width: auto;
+	}
+	
+	/*! Reset columns */
+	[class^="column-"],
+	.rows [class^="column-"] {
+		width: auto;
+		float: none;
+		margin: 0;
+	}
+	
+	[class^="column-"].right { float: none; }
+	
+	/*! Grid for mobile */
+	[class^="column-"].mobile {
+		float: left;
+	}
+	
+	.mobile.column-1 { width: 14.583%; }
+	.mobile.column-2 { width: 14.583%; }
+	.mobile.column-3 { width: 31.25%; }
+	.mobile.column-4 { width: 47.917%; }
+}

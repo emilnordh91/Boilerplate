@@ -1,0 +1,92 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/*
+#!MAIN
+#!GLOBAL STYLE
+#!PAGE STYLES
+#!MOBILE
+#!@FONT-FACE
+*/
+
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+    #!MAIN
+\*------------------------------------*/
+html {
+	background: #ddd;
+}
+
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+    #!GLOBAL STYLE
+\*------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+    #!PAGE STYLES
+\*------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+	#!MOBILE
+\*------------------------------------*/
+@media (max-width: 720px) {
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+    #!@FONT-FACE
+\*------------------------------------*/
+/*
+@font-face {
+	font-family: "PTSans";
+	src: url("/fonts/PTSans/pts55f.eot");
+	src: url("/fonts/PTSans/pts55f.eot?#iefix") format("embedded-opentype"),
+		 url("/fonts/PTSans/pts55f.woff") format("woff"),
+		 url("/fonts/PTSans/pts55f.ttf") format("truetype"),
+		 url("/fonts/PTSans/pts55f.svg#PTSansRegular") format("svg");
+		 font-weight: normal;
+		 font-style: normal;
+}
+*/
